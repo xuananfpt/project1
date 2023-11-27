@@ -1,0 +1,79 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    background-color: #029ef3;
+     text-align: center;
+    
+}
+h1 {
+    padding: 0px 0px 20px ;
+}
+#wp-form-login {
+    margin: 150px auto;
+    width: 263px;
+    background-color: #c4d5ec;
+    border-radius: 3px;
+    padding: 30px 20px 20px;
+
+   
+}
+#form-login {
+    text-align: center;
+}
+#form-login #username, #form-login #password,#form-login #fullname, #form-login #email {
+    display: block;
+    padding: 10px 10px;
+    width: 93%;
+    margin-bottom: 9px;
+    background-color: #f6dada;
+    border: none;
+}
+/* form input {
+    display: block;
+    padding: 6px 10px;
+    width: 85%;
+    margin-bottom: 15px;
+} */
+#form-login #btn-reg {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: #029ef3;
+    border: none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 15px 0px 10px;
+    cursor: pointer;
+}
+#form-login #btn-login {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: #029ef3;
+    border: none;
+    color: #fff;
+    padding: 10px 0px;
+    margin: 15px 0px 10px;
+    cursor: pointer;
+}
+#loss-pass {
+    text-decoration: underline;
+    color: #07341d;
+}
+.error {
+    text-align: left;
+    color: red;
+    font-size: 11px;
+
+}
+.ft-form {
+    display: inline-block;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-left: 5px;
+    font-style: italic;
+
+}
